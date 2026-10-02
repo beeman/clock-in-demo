@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "scheme": "clock-in-demo",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "static"
+    },
+    "name": "clock-in-demo",
+    "slug": "clock-in-demo",
+    "android": {
+      "package": "com.anonymous.clock_in_demo"
+    },
+    "plugins": [
+      [
+        "expo-dev-client",
+        {
+          "showMenuAtLaunch": false,
+          "skipOnboarding": true
+        }
+      ],
+      "expo-router"
+    ]
+  }
+}
